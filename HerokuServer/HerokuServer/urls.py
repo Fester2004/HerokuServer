@@ -18,6 +18,6 @@ from django.urls import path
 from HerokuServer import views
 
 urlpatterns = [
-    path('apricot-crisp-18271.herokuapp.com/admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('', views.index),
 ]
