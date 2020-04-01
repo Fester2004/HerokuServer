@@ -1,0 +1,1 @@
+web: gunicorn --chdir HerokuServer HerokuServer.wsgi --logs -
