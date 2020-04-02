@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:D:\ProjectPy\AirlineCompany\src\airline_company\db.sqlite3</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="db [2]" uuid="154f0718-5c5e-484c-8067-a330f3fcd0c8">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\ProjectPy\HerokuServer\HerokuServer\db.sqlite3</jdbc-url>
+    </data-source>
   </component>
 </project>
