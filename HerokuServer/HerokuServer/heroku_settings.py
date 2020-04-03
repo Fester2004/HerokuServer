@@ -7,7 +7,7 @@ MIDDLEWARE = \
     MIDDLEWARE
 
 # DEBUG = False
-ALLOWED_HOSTS = ['djangodimon.herokuapp.com']
+ALLOWED_HOSTS = ["djangodimon.herokuapp.com"]
 
 db_url = urlparse(os.environ.get('DATABASE_URL'))
 DATABASES = {
