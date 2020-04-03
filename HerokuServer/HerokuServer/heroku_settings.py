@@ -1,5 +1,5 @@
 from urllib.parse import urlparse
-from HerokuServer.settings import *
+from .settings import *
 
 
 MIDDLEWARE = \
